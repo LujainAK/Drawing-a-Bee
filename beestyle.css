@@ -1,0 +1,73 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.bcgr{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-color:#f2f7ff;
+	width:500px;
+	height:500px;
+	border-radius:50%;
+}
+.beebody{
+	position:relative;
+	width:275px;
+	height:160px;
+	background-color:#fff047;
+	border-radius:100px 100px 100px 100px;
+	margin-top:75px;
+}
+.eye{
+	position:absolute;
+	width:25px;
+	height:25px;
+	border-radius:50%;
+	background-color:#1f1f1e;
+	top:45px;
+	right:30px;
+}
+.blcline{
+	position:absolute;
+	width:30px;
+	height:160px;
+	background-color:#1f1f1e;
+	right:85px;
+	box-shadow:-50px 0px #1f1f1e;
+}
+.blcline2{
+	position:absolute;
+	width:80px;
+	height:160px;
+	background-color:#1f1f1e;
+	left:0px;
+	border-radius:120px 0 0 120px;
+}
+.wing1{
+	position:absolute;
+	width:125px;
+	height:125px;
+	border-radius:50% 50% 10px 50%;
+	background-color:#fffff7;
+	/*box-shadow:63px 0 #fffff7;*/
+	margin-bottom:210px;
+	margin-right:110px;
+}
+
+.wing2{
+	position:absolute;
+	width:125px;
+	height:125px;
+	border-radius:50% 50% 50% 10px;
+	background-color:#fffff7;
+	margin-bottom:210px;
+	margin-right:-110px;
+}
